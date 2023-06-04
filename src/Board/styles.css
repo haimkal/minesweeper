@@ -1,0 +1,36 @@
+.cube {
+  width: 30px;
+  height: 30px;
+}
+.close {
+  border: 3px outset black;
+}
+.open {
+  border: 3px inset black;
+}
+.mind {
+  border: 3px outset red;
+  background-color: red;
+}
+
+.board {
+  /* display: grid;
+  background-color: black;
+  color: white;
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-template-rows: 40px 40px 40px 40px 40px; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.container > .item {
+  padding: 5px;
+  background-color: gray;
+}
